@@ -15,7 +15,7 @@ export default function handler(req, res)
                  'groomer', 'diddy', 'israeli', 'shot', 'my', 'us', 'me', 'our', 'larp', 'ai',
                  'drop', 'rate', 'epic', 'feature', 'legendary', 'mythic', 'icon', 'robtop', 'viprin', 'pauze',
                  'suck', 'dick', 'lmao', 'lol', 'gg', 'ez', 'fucking', 'frick', 'freaking', 'freak',
-                 'fricking', 'testicles', 'W', 'L', 'go', 'GO', 'predict', 'attempt', 'you', 'all',
+                 'fricking', 'testicles', 'W', 'L', 'go', 'goooooo', 'predict', 'attempt', 'you', 'all',
                  'chat', 'follow', 'sub', 'subscribe', 'gift', 'to', 'from', 'a', 'by', 'before',
                  'after', 'then', 'than', 'whore', 'instead', 'or', 'either', 'rather', 'the', 'sorry',
                  'run', 'portal', 'orb', 'red', 'yellow', 'orange', 'green', 'cyan', 'blue', 'pink',
@@ -27,7 +27,7 @@ export default function handler(req, res)
                  'culture', 'anime', 'twitter', 'x', 'elon musk', 'billionare', 'money', 'drama', 'controversy', 'cancel',
                  'expose', 'out', 'draw', 'drew', 'among us', 'sussy', 'sus', 'baka', 'tuff', 'aura',
                  'farm', 'brainrot', 'tung', 'tung tung tung sahur', 'sahur', 'solo', '100%', 'complete', 'fall', 'of',
-                 'off', 'on', 'game', 'school', 'taxes', 'mrbeast', 'hack', 'noclip', 'hitbox', 'block',
+                 'off', 'on', 'game', 'school', 'tax', 'mrbeast', 'hack', 'noclip', 'hitbox', 'block',
                  'speedhack', 'alert', 'mod', 'moderator', 'rate advisor', 'party', 'epstein', 'absolute', 'cinema', 'slope',
                  'physics', 'good', 'bad', 'evil', 'gravity', 'verity', 'cruelty', 'lovity', 'falsity', 'minecraft',
                  'send', 'star', 'moon', 'moons', 'cp', 'creator', 'point', 'leaderboard', 'top', 'this',
@@ -90,7 +90,7 @@ export default function handler(req, res)
     // 10% chance to plural
     if (Math.random() < 0.1)
     {
-      if (word.endsWith('s') || word.endsWith('h'))
+      if (word.endsWith('s') || word.endsWith('h') || word.endsWith('x'))
       {
         word += 'es';
       }
