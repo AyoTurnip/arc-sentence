@@ -9,23 +9,6 @@ export default function handler(req, res)
   {
     let word = words[Math.floor(Math.random() * words.length)];
 
-    // 25% chance to pluralize
-    if (Math.random() < 0.25)
-    {
-      if (word.endsWith('s'))
-      {
-        word += 'es';
-      }
-      else if (word.endsWith('y'))
-      {
-        word = word.slice(0, -1) + 'ies';
-      }
-      else
-      {
-        word += 's';
-      }
-    }
-
     // 25% chance to add pass tense
     if (Math.random() < 0.25)
     {
@@ -40,6 +23,23 @@ export default function handler(req, res)
       else
       {
         word += "ed";
+      }
+    }
+    
+    // 25% chance to pluralize
+    if (Math.random() < 0.25)
+    {
+      if (word.endsWith('s'))
+      {
+        word += 'es';
+      }
+      else if (word.endsWith('y'))
+      {
+        word = word.slice(0, -1) + 'ies';
+      }
+      else
+      {
+        word += 's';
       }
     }
     
@@ -59,6 +59,11 @@ export default function handler(req, res)
     if (Math.random() < 0.25)
     {
       word = word.charAt(0).toUpperCase() + word.slice(1);
+    }
+
+    // 10% chance to fully capitalize
+    if (Math.random() < 0.1) {
+      word = word.toUpperCase();
     }
 
     result.push(word);
