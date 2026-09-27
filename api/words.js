@@ -69,8 +69,8 @@ export default function handler(req, res)
   {
     let word = words[Math.floor(Math.random() * words.length)];
 
-    // 25% chance to add pass tense
-    if (Math.random() < 0.25)
+    // 10% chance to add pass tense
+    if (Math.random() < 0.1)
     {
       if (word.endsWith('e'))
       {
@@ -86,8 +86,8 @@ export default function handler(req, res)
       }
     }
     
-    // 25% chance to pluralize
-    if (Math.random() < 0.25)
+    // 10% chance to pluralize
+    if (Math.random() < 0.1)
     {
       if (word.endsWith('s'))
       {
@@ -103,8 +103,8 @@ export default function handler(req, res)
       }
     }
     
-    // 25% chance to add possessive
-    if (Math.random() < 0.25)
+    // 10% chance to add possessive
+    if (Math.random() < 0.1)
     {
       if (word.endsWith('s'))
       {
