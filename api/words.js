@@ -7,21 +7,25 @@ export default function handler(req, res) {
   for (let i = 0; i < count; i++) {
     let word = words[Math.floor(Math.random() * words.length)];
 
-    // 50% chance to make plural
+    // 50% chance to pluralize
     if (Math.random() < 0.25) {
-      if (word.toLowerCase().endsWith('s')) {
+      if (word.endsWith('s')) {
         word += 'es';
       } else {
         word += 's';
       }
     }
 
-    // 50% chance to add possessive ('s)
+    // 50% chance to add possessive
     if (Math.random() < 0.25) {
-      word += "'s";
+      if (word.endsWith('s')) {
+        word += "'";
+      } else {
+        word += "'s";
+      }
     }
 
-    // 50% chance to capitalize
+    // 50% chance to capitalize the first letter
     if (Math.random() < 0.25) {
       word = word.charAt(0).toUpperCase() + word.slice(1);
     }
