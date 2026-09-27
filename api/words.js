@@ -60,6 +60,7 @@ export default function handler(req, res)
                  'english', 'spanish', 'french', 'german', 'fernanfloo', 'nexus', 'showcase', 'request', 'ban', 'timeout',
                  'face', 'reveal', 'nose', 'ear', 'nipple', 'arm', 'leg', 'thigh', 'teeth', 'slap',
                  'kick', 'punch', 'lick', 'moan', 'gag', 'say', 'said', 'tell', 'told', 'scream'];
+    // each row is 10 words
   
   const count = Math.floor(Math.random() * 12) + 2;
   const result = [];
