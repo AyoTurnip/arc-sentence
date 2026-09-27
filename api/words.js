@@ -58,7 +58,7 @@ export default function handler(req, res)
                  'kingsammelot', 'juniper', 'colon', 'wulzy', 'npesta', 'technical', 'mindcap', 'cherry', 'team', 'krmal',
                  'ninja', 'low', 'taper', 'fade', 'meme', 'dank', 'viral', 'reel', 'tiktok', 'video',
                  'english', 'spanish', 'french', 'german', 'fernanfloo', 'nexus', 'showcase', 'request', 'ban', 'timeout',
-                 'face', 'reveal', 'nose', 'ear', 'nipple', 'arm', 'leg', 'thigh', 'teeth', 'slap'
+                 'face', 'reveal', 'nose', 'ear', 'nipple', 'arm', 'leg', 'thigh', 'teeth', 'slap',
                  'kick', 'punch', 'lick', 'moan', 'gag', 'say', 'said', 'tell', 'told', 'scream'];
   
   const count = Math.floor(Math.random() * 12) + 2;
