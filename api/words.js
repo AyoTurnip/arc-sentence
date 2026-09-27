@@ -7,7 +7,7 @@ export default function handler(req, res) {
   for (let i = 0; i < count; i++) {
     let word = words[Math.floor(Math.random() * words.length)];
 
-    // 50% chance to pluralize
+    // 25% chance to pluralize
     if (Math.random() < 0.25) {
       if (word.endsWith('s')) {
         word += 'es';
@@ -16,7 +16,7 @@ export default function handler(req, res) {
       }
     }
 
-    // 50% chance to add possessive
+    // 25% chance to add possessive
     if (Math.random() < 0.25) {
       if (word.endsWith('s')) {
         word += "'";
@@ -25,7 +25,7 @@ export default function handler(req, res) {
       }
     }
 
-    // 50% chance to capitalize the first letter
+    // 25% chance to capitalize the first letter
     if (Math.random() < 0.25) {
       word = word.charAt(0).toUpperCase() + word.slice(1);
     }
@@ -33,6 +33,15 @@ export default function handler(req, res) {
     result.push(word);
   }
 
+  // Generate joined sentence
+  let finalMessage = result.join(' ');
+
+  // List of ending characters
+  const endings = ['.', '?', '!', '-', '~', ''];
+  const ending = endings[Math.floor(Math.random() * endings.length)];
+
+  finalMessage += ending;
+
   res.setHeader('Content-Type', 'text/plain');
-  res.status(200).send(result.join(' '));
+  res.status(200).send(finalMessage);
 }
