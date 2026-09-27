@@ -86,10 +86,10 @@ export default function handler(req, res)
       }
     }
     
-    // 10% chance to pluralize
+    // 10% chance to plural
     if (Math.random() < 0.1)
     {
-      if (word.endsWith('s'))
+      if (word.endsWith('s') || word.endsWith('h'))
       {
         word += 'es';
       }
