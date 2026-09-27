@@ -17,7 +17,7 @@ export default function handler(req, res)
     'mythic', '60 hz', '144 hz', '240 hz', '360 hz',
 
     // other people
-    'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'chud', 'mori calliope',
+    'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'kanye', 'mori calliope',
     'minato aqua', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump',
 
     // funnies
@@ -30,7 +30,7 @@ export default function handler(req, res)
     'brainrot', 'tung', 'sahur', 'deez', 'nut', 'boob', 'tits', 'tiddy', 'breast', 'butt',
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
-    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy',
+    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy', 'chud',
 
     // regular ass words
     'wake', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
