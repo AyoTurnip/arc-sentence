@@ -14,7 +14,7 @@ export default function handler(req, res)
     'nexus', 'cytokinesis', 'empyrean', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
-    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot
+    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot',
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'kanye', 'mori calliope',
