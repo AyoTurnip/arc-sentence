@@ -73,7 +73,7 @@ export default function handler(req, res)
     'ear', 'nipple', 'arm', 'leg', 'thigh', 'teeth', 'start', 'end', 'tongue', 'america',
     'united states', 'japan', 'canada', 'uk', 'united kingdom', 'africa', 'china', 'one', 'two', 'three',
     'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'can', 'cant', 'want',
-    'how', 'what', 'when', 'where'
+    'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
