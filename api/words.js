@@ -74,6 +74,7 @@ export default function handler(req, res)
     'united states', 'japan', 'canada', 'uk', 'united kingdom', 'africa', 'china', 'one', 'two', 'three',
     'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'can', 'cant', 'want',
     'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
+    'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry',
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
