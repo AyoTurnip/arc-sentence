@@ -14,11 +14,11 @@ export default function handler(req, res)
     'nexus', 'cytokinesis', 'empyrean', 'ship', 'wave', 'cube', 'spider', 'ball', 'swing', 'ufo',
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
-    'mythic', '60 hz', '144 hz', '240 hz', '360 hz',
+    'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'kanye', 'mori calliope',
-    'minato aqua', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump',
+    'minato aqua', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump', 'drake', 'nicki manaj',
 
     // funnies
     'sus', 'baka', 'tuff', 'bitch', 'moron', 'idiot', 'lmao', 'lol', 'gg', 'ez',
@@ -30,10 +30,11 @@ export default function handler(req, res)
     'brainrot', 'tung', 'sahur', 'deez', 'nut', 'boob', 'tits', 'tiddy', 'breast', 'butt',
     'ass', 'bum', 'booty', 'cheek', 'boobie', 'n word', 'hawk', 'tuah', 'wordle', 'boi',
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
-    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy', 'chud',
+    'israeli', 'bang', 'smash', , 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur'
+    '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart',
 
     // regular ass words
-    'wake', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
+    'flash', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
     'sub', 'subscribe', 'gift', 'run', 'sleep', 'wash', 'walk', 'wanna', 'gonna', 'get',
     'gotta', 'is', 'mute', 'shoot', 'stab', 'blow', 'blew', 'cancel', 'expose', 'draw',
     'drew', 'fall', 'send', 'rub', 'accept', 'slip', 'drink', 'eat', 'read', 'verify',
@@ -74,7 +75,8 @@ export default function handler(req, res)
     'united states', 'japan', 'canada', 'uk', 'united kingdom', 'africa', 'china', 'one', 'two', 'three',
     'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'can', 'cant', 'want',
     'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
-    'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry',
+    'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry', 'space',
+    'just', 'play', 'player', 'never', 'ever', 'forever'
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
