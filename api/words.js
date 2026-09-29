@@ -161,7 +161,7 @@ export default function handler(req, res)
     // 25% chance to capitalize the first letter
     if (Math.random() < 0.25)
     {
-      word = word.charAt(0).toUpperCase() + word.slice(1);
+      word = word.replace(/\b[a-z]/g, (char) => char.toUpperCase());
     }
 
     // 10% chance to fully capitalize
