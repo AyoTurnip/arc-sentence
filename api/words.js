@@ -34,7 +34,7 @@ export default function handler(req, res)
     'hentai', 'porn', 'racism', 'phonk', 'fucker', 'femboy', 'tiki', 'die', 'love', 'kill',
     'israeli', 'bang', 'smash', 'stupid', 'dumb', 'sussy', 'chud', 'slop', 'ahh', 'ur',
     '67', 'onlyfans', 'nude', 'leak', 'file', 'gassy', 'fart', 'f slur', 'slur', 'cock', 
-    'mold', 'cuck', 'pedo', 'wither', 'asmr', 'idk', 'mean', 'temu', 
+    'mold', 'cuck', 'pedo', 'wither', 'asmr', 'idk', 'mean', 'temu', 'wawario', 'wawaluigi',
 
     // regular ass words
     'flash', 'help', 'jump', 'click', 'live', 'stream', 'shot', 'suck', 'predict', 'attempt',
