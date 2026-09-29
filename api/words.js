@@ -80,7 +80,7 @@ export default function handler(req, res)
     'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
     'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry', 'space',
     'just', 'play', 'player', 'never', 'ever', 'forever', 'second', 'third', 'guilty', 'innocent',
-    'spread', 'pregnant', 'slavery', 'labor'
+    'spread', 'pregnant', 'slavery', 'labor', 'was', 'will', 'going'
 ];
   
   const count = Math.floor(Math.random() * 12) + 2;
