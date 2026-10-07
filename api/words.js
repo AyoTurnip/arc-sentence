@@ -3,7 +3,7 @@ export default function handler(req, res)
   // each row is 10 words
   const words = [
     // streamer specific terms
-    'arc', 'turnip', 'dzends', 'sc99p', 'spaceman', 'drongostache', 'kaden', 'pohgii', 'snow', 'terminated',
+    'arc', 'turnip', 'dzends', 'sc66p', 'spaceman', 'drongostache', 'kaden', 'pohgii', 'snow', 'terminated',
     'juic3y', 'poros',
   
     // geometry dash terms
@@ -20,7 +20,7 @@ export default function handler(req, res)
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'kanye', 'mori calliope',
     'minato aqua', 'god', 'jesus', 'tokoyami towa', 'diddy', 'hitler', 'stalin', 'trump', 'drake', 'nicki manaj',
-    'kendrick lamar', 'beyonce', 'taylor swift', 'britney spears', 'charlie kirk', 'dean withers', 
+    'kendrick lamar', 'beyonce', 'taylor swift', 'britney spears', 'charlie kirk', 'dean withers', 'saul goodman',
 
     // funnies
     'sus', 'baka', 'tuff', 'bitch', 'moron', 'idiot', 'lmao', 'lol', 'gg', 'ez',
