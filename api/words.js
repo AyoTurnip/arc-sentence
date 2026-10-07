@@ -83,7 +83,7 @@ export default function handler(req, res)
     'spread', 'pregnant', 'slavery', 'labor', 'was', 'will', 'going'
 ];
   
-  const count = Math.floor(Math.random() * 12) + 2;
+  const count = Math.floor(Math.random() * 8) + 1;
   const result = [];
   
   for (let i = 0; i < count; i++)
