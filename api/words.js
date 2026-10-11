@@ -15,7 +15,7 @@ export default function handler(req, res)
     'level', 'geometry', 'dash', 'cbf', 'amethyst', 'flamewall', 'wooting', 'portal', 'orb', 'pointercrate',
     'aredl', 'global list', 'noclip', 'hitbox', 'speedhack', 'rate advisor', 'cp', 'frame perfect', 'epic', 'legendary',
     'mythic', '60 hz', '144 hz', '240 hz', '360 hz', 'spaceuk', 'bot', 'slaughterhouse', 'acheron', 'orbit', 
-    '0%', '100%', 'greafer', 'tacos', 'lag', 'spike', 
+    '0%', '100%', 'greafer', 'tacos', 'lag', 'spike', 'von',
 
     // other people
     'kirk', 'charlie', 'elon musk', 'mrbeast', 'epstein', 'john', 'paul', 'jerome', 'kanye', 'mori calliope',
@@ -80,7 +80,7 @@ export default function handler(req, res)
     'how', 'what', 'when', 'where', 'korea', 'education', 'special', 'korea', 'massive', 'remember',
     'dono', 'donate', 'sponsor', 'sell', 'greed', 'obese', 'obesity', 'scam', 'hungry', 'space',
     'just', 'play', 'player', 'never', 'ever', 'forever', 'second', 'third', 'guilty', 'innocent',
-    'spread', 'pregnant', 'slavery', 'labor', 'was', 'will', 'going'
+    'spread', 'pregnant', 'slavery', 'labor', 'was', 'will', 'going', 'carry'
 ];
   
   const count = Math.floor(Math.random() * 8) + 1;
