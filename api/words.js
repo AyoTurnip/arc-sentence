@@ -4,7 +4,7 @@ export default function handler(req, res)
   const words = [
     // streamer specific terms
     'arc', 'turnip', 'dzends', 'sc66p', 'spaceman', 'drongostache', 'kaden', 'pohgii', 'snow', 'terminated',
-    'juic3y', 'poros',
+    'niiro', 'poros', 'kyselo', 'kermit', 'bilete',
   
     // geometry dash terms
     'grief', 'heliopolis', 'tidal wave', 'vehemence', 'angelicide', 'aeternus', 'thinking space ii', 'ts2', 'bloodbath', 'kyouki',
